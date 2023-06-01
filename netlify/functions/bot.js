@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf');
 const { Chatbot } = require('edgegptjs');
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf("6160231980:AAGz70x3VQqYgKnVgXGx6o3R5wZaJzdBBVs");
 const edgebot = new Chatbot("./cookies.json");
 
 bot.start((ctx) => {
