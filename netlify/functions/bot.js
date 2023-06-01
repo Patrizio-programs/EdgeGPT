@@ -9,10 +9,8 @@ bot.start((ctx) => {
 });
 
 bot.command('bots', (ctx) => {
-  const keyboard = Telegraf.Markup.inlineKeyboard([
-    Telegraf.Markup.urlButton('More bots here!', 'https://t.me/PatrizioTheDevbot')
-  ]);
-  ctx.reply('To check on the other bots select the button', keyboard);
+
+  ctx.reply('More bots here https://t.me/PatrizioTheDevbot');
 });
 
 bot.on('text', async (ctx) => {
